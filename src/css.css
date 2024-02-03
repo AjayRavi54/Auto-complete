@@ -1,0 +1,330 @@
+.root{
+    width: 99.99vw;
+    height:99.99vh;
+    
+    background-image: url('images/down.jpg');
+    background-size: cover; 
+    background-position: center;
+  
+ }
+
+ .loadingdisouter{
+    width:97vw;
+    height:10vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+/* .inputcleardiv{
+    
+        width:100vw;
+        height:20vh;
+        border: 1px solid rgb(51, 0, 128);
+        margin:3vh;
+}  */
+.inpufieldmain{
+    display: block;
+    height: 2.2vh;
+    width:10vw;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 4px;
+    border-radius: 2px;
+}
+.opadesign{
+    
+    width:96.8vw;
+    height:50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}  
+.outeinpu{
+    
+    width:70vw;
+    height:10vh;
+    background-color: rgba(109, 109, 109, 0.533);
+    border-radius: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.inputfield{
+    
+    width:40vw;
+
+  height:4vh; 
+   display: flex;
+   flex-wrap: wrap;
+    overflow-y: scroll;
+   overflow-x: hidden;
+   background-color: aliceblue;
+   position: relative;
+   border-top-left-radius: 6vh;  
+   border-bottom-left-radius: 6vh; 
+   
+}
+ .inputfield::-webkit-scrollbar {
+    width: 1px; 
+  }
+  .inputfield::-webkit-scrollbar {
+    width: 1px;
+}
+
+
+.inputfield::-moz-scrollbar-thumb {
+    width: 1px;
+} 
+
+.drop{
+    
+    width:5vw;
+    height:4vh;
+    background-color: #dcdcdc;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   
+}
+.clr{
+    
+    width:10vw;
+    height:4vh;
+   background-color: #dcdcdc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top-right-radius: 6vh; 
+   border-bottom-right-radius: 6vh;
+}
+.clr:hover{
+    color:red;
+    font-size: large;
+}
+.opt{
+    display: block;
+    height: auto;
+   transform: translateY(-22.5vh);  
+   
+   position: absolute;
+}
+.opopt{
+    
+    display: block;
+    height: 4vh;
+    width:40vw;
+    margin:0px;
+    margin-top: 1px;
+    margin-left: 20.4vw;
+    border-radius: 8vw;
+    display: flex;
+    justify-content: center;
+    background-color: #dcdcdc;
+}
+.opopt:hover{
+    background-color: #df9494f3;
+}
+.icon{
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+     height: 2.2vh;
+    width:2vw; 
+  
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    
+}
+.selopt{
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    height:2.2vh;
+    min-width:8vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.aceopt{
+    display: block;
+    height: 2.4vh;
+    max-width:auto;
+    display: flex;
+    margin-top: 4px;
+    margin-left: 4px;
+  
+    font-size: 12px;
+    
+}
+.openiconclosedisplay{
+    display: flex;
+    height: 3vh;
+   width:5vw; 
+   background-color: #dcdcdc;
+   justify-content: center;
+   align-items: center;
+   border-radius: 7px;
+}
+.deleteicon{
+    width:2vw;
+    height:2vh
+}
+.headerbox{
+ display: flex;
+ width: auto;
+    height:auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgb(99, 163, 99);
+    background-color: rgb(7, 163, 163);
+    border-radius: 9vw;
+}
+.loading{
+    width: 15vw;
+    height:4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.radio{
+    width: 6vw;
+    height:4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.radiobox{
+    width: 2vw;
+    height:2vh;
+    border-radius: 8vw;
+    background-color: white;
+
+}
+.enetericon{
+    width: 9vh;
+    height:9vh;
+    border-radius: 100%;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.enetericon:hover{
+    width: 11vh;
+    height:11vh;
+    background-color: rgb(94, 160, 86);
+
+}
+.enetericon:hover >.submitclick{
+    display: block;
+
+
+}
+ .papericon{
+    width: 5vh;
+    height:5vh;
+    
+} 
+.papericon:hover{
+    width: 7vh;
+    height:7vh;
+   
+    
+}
+.submitclick{
+   position: absolute;
+   transform: translate(0%,200%);
+   background-color: rgba(183, 192, 192, 0.34);
+   display: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    .inpufieldmain{
+        display: block;
+        height: 2.2vh;
+        width:5vw;
+    
+        margin-top: 4px;
+        margin-left: 4px;
+        border-radius: 2px;
+    }
+    .selopt{
+        height:2.2vh;
+        min-width:2vw;
+       
+        border-radius: 2px;
+        
+    }
+    .inputfield{
+        width: 20vw;
+    }
+    .outeinpu{
+        width:40vw;
+    }
+    .opopt{
+        width:20vw;
+        
+    }
+    .opt{
+        transform: translate(15.5vw,-22.5vh);
+    }
+    .clr{
+        width:5vw;
+    }
+    .drop{
+        width:2vw;
+    }
+    .openiconclosedisplay{
+        width:2vw
+    }
+    .loadmain{
+        width:28vw
+     }
+     .disablemain{
+        width:28vw
+     }
+     .radiobox{
+        width:1vw;
+        height:2vh;
+        border-radius: 40vw;
+        background-color: white;
+     }
+     .drop{
+        transform: translate(7.6vw,0%);
+     }
+
+}
+@media screen and (min-width:768px ) and (max-width:1024px){
+    .drop{
+        transform: translate(13vw,0%);
+     }
+     
+}
+
+@media screen and (max-width: 768px)  {
+    
+    
+    .radiobox{
+        width:9vw;
+        height:2vh;
+       margin-right: 1.5vw;
+        border-radius: 2vw;
+        background-color: white;
+        padding-left: 1vw;
+     }
+     .drop{
+        transform: translate(13vw,0%);
+     }
+     .clas{
+        background-color:rgba(26, 181, 224, 0.87);
+     }
+     
+}
