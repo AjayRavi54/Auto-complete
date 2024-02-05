@@ -73,8 +73,8 @@ const Child = (props) => {
     
       
     <div className="loadingdisouter">
-        <div className="loadmain">      <div className="headerbox"><div className="loading">Loading</div><div className="radio"><div className="radiobox" style={load}></div></div></div></div>
-        <div className="disablemain">      <div className="headerbox"><div className="loading">Disable</div><div className="radio"><div className="radiobox" style={dis}></div></div></div></div>
+        <div className="loadmain">      <div className="loading">Loading</div><div className="radio"><div className="radiobox" style={load}></div></div></div>
+        <div className="disablemain">      <div className="loading">Disable</div><div className="radio"><div className="radiobox" style={dis}></div></div></div>
       </div>
       <div className="opadesign">
       <div className="outeinpu">

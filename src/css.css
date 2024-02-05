@@ -14,8 +14,19 @@
    display:flex;
    justify-content: center;
    align-items: center;
+   gap: 10vw;
    
 }
+.loadmain,.disablemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 134, 104);
+    border-radius: 2vw;
+    gap: 1vw;
+    width: 5vw;
+}
+
 /* .inputcleardiv{
     
         width:100vw;
@@ -181,7 +192,7 @@
     margin-left: 10vw;
     margin-right: 10vw;
     background-color: rgb(99, 163, 99);
-    background-color: rgb(7, 163, 163);
+   
     border-radius: 9vw;
 }
 .loading{
@@ -286,10 +297,10 @@
         width:2vw
     }
     .loadmain{
-        width:28vw
+        width:15vw
      }
      .disablemain{
-        width:28vw
+        width:15vw
      }
      .radiobox{
         width:1vw;
@@ -306,8 +317,12 @@
     .drop{
         transform: translate(13vw,0%);
      }
+     .loadmain,.disablemain{
+        width: 14vw;
+     }
      
 }
+
 
 @media screen and (max-width: 768px)  {
     
@@ -326,5 +341,25 @@
      .clas{
         background-color:rgba(26, 181, 224, 0.87);
      }
+     .loadmain, .disablemain {
+        
+        gap: 1vw;
+        width: 18vw;
+    }
+     
+}
+@media screen and (max-width: 425px)  {
+    
+    
+   
+     .loadmain, .disablemain {
+        
+    
+        gap: 1vw;
+        width: 25vw;
+    }
+    .clr{
+        font-size:smaller;
+    }
      
 }
