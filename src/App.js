@@ -3,7 +3,7 @@ import "./css.css";
 
 const App=()=>{
   const value = {
-    array: ["Ram", "Rahu", "Ramesh","Arun"],
+    array: ["arun", "vinoth", "naveen","ram"],
     multiple: true,
     badgeColor: {
       text: "black",

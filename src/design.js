@@ -25,15 +25,12 @@ const Child = (props) => {
 
   const [isSecondDivOpen, setIsSecondDivOpen] = useState(false);
 
-  const [isDownward, setIsDownward] = useState(true);
+  
   const submitfinal=()=>{
     console.log(opInput);
     setOpInput([]);
   }
-  const updownicon = () => {
-    setIsDownward(!isDownward);
-  };
-
+   
   const openOption = () => {
     const array = obj.array;
     setOptions(array);
@@ -106,13 +103,13 @@ const Child = (props) => {
           
           <svg
             className="openiconclosedisplay"
-            onClick={updownicon}
+            
             viewBox="0 0 24 24"
             width="24"
             height="24"
             xmlns="http://www.w3.org/2000/svg"
             style={{
-              transform: isDownward ? "rotate(0deg)" : "rotate(180deg)",
+              transform: !isSecondDivOpen ? "rotate(0deg)" : "rotate(180deg)",
             }}
           >
             <path
